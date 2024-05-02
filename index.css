@@ -1,0 +1,234 @@
+body
+{
+    padding: 5px;
+    padding-bottom: 80px;
+    background-color: rgb(255, 255, 255);
+}
+.intro
+{
+    font-family: cursive;
+    font-size: 14px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0px;
+}
+.intro span
+{
+    font-weight: lighter;
+    color: grey;
+}
+.nav
+{
+    display: flex;
+    flex-direction:row;
+    max-height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav h1
+{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: rgba(194, 27, 200, 0.824);
+    font-weight: bold;
+    box-shadow: 2px 2px 42px rgba(204, 201, 201, 0.763);
+    padding: 5px;
+    border-radius: 5px;
+}
+.nav .navb
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav .navb a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: rgb(1, 1, 212);
+    font-weight: bold;
+    margin: 5px;
+}
+.nav .navb a:hover
+{
+    color: aqua;
+}
+
+.content .content1 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content .content1 h1
+{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 0.85;
+    letter-spacing: 1px;
+    color: blueviolet;
+}
+.content .content1 h1 span
+{
+    color: red;
+}
+.content .content1 p{
+    text-align: justify;
+    max-width: 80%;
+    font-size: 14px;
+}
+.content .content1 p span
+{
+    font-weight: bold;
+}
+.content .content1 a{
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: white;
+}
+.content .content1 a:hover
+{
+    border: none;
+    background-color: blue;
+    color: white;
+}
+.content .content1 div .top
+{
+    position: absolute;
+    max-width: 25%;
+    height: 100px;
+    right: 115px;
+    top: 130px;
+    border: 1px solid black;
+    object-fit: cover;
+}
+.content .content1 div .cover
+{
+
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+.content3
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 5px;
+}
+.content3 div img
+{
+    max-height: 70px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+footer
+{
+    position: fixed;
+    background-color: silver;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+}
+footer h4
+{
+    padding-bottom: 8px;
+}
+
+/*Gallery  styles*/
+
+.us
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.us img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: 0.5px solid grey;
+}
+.us .p2
+{
+    position: absolute;
+    left: 60px;
+}
+.us h2
+{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.name
+{
+    font-weight: lighter;
+    color: grey;
+}
+.gallery1, .gallery2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.gallery1 div img, .gallery2 div img
+{
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+
+/*Profile styles*/
+
+.personalProfile
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    max-height: 900px;
+    justify-content: center;
+    align-items: center;
+}
+.personalProfile div img
+{
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 80px;
+}
+.personalProfile div h1
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.personalProfile div p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 18px;
+    text-align: justify;
+    margin: 5px;
+}
+.personalProfile div img
+{
+    margin-left: 10px;
+}
+.personalProfile div .img2{
+    margin-left: 25%;
+}
+
+
+/*contact*/
+.h5{
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
